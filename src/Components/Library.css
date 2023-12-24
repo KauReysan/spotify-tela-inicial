@@ -1,0 +1,62 @@
+.first-sections{
+    margin-left: 10px;
+}
+.liked-musics{
+    width: 293px;
+    display: flex;
+    padding: 8px;
+    border-radius: 5px;
+}
+.liked-musics:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+.text{
+    margin-left: 10px;
+    height: 50px;
+}
+.legend{
+    position: relative;
+    top: -30px;
+}
+.liked-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.episodes{
+    width: 293px;
+    display: flex;
+    padding: 8px;
+    border-radius: 5px;
+}
+.episodes:hover{
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+.episodes-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+#f-s-title{
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+#f-s-legend{
+    font-size: 13px;
+    position: relative;
+}
+.legend{
+    display: flex;
+    align-items: center;
+}

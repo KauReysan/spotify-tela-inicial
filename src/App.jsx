@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 
+import { Library } from "./Components/Library";
+
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import TurnedInNotOutlinedIcon from '@mui/icons-material/TurnedInNotOutlined';
@@ -15,12 +17,12 @@ const App = () => {
 
       <div className="container-aside">
 
-            <div className="top-menu">
-              <div className="top-menu-inicio">
-                <div className="tm-btn">
-                  <HomeOutlinedIcon style={{color: "#b3b3b3", width: "30px", height: "30px"}}/>
-                </div>
-                  <p style={{color: "#b3b3b3"}}>Início</p>
+          <div className="top-menu">
+            <div className="top-menu-inicio">
+              <div className="tm-btn">
+                <HomeOutlinedIcon style={{color: "#b3b3b3", width: "30px", height: "30px"}}/>
+              </div>
+                <p style={{color: "#b3b3b3"}}>Início</p>
               </div>
               <div className="top-menu-buscar">
                 <div className="tm-btn">
@@ -54,19 +56,22 @@ const App = () => {
                       </div>
 
                       <div className="library-area">
+
                         <div className="search">
                           <div className="input-area">
-                            <SearchOutlinedIcon style={{color: "#b3b3b3", width: "25px", height: "25px"}}/>
-                            <input type="text" />
+                            <div className="input-area-btn">
+                              <SearchOutlinedIcon style={{color: "#b3b3b3", width: "23px", height: "23px"}}/>
+                            </div>
                           </div>
+
                           <div className="recents-area">
-                          <p style={{color: "#b3b3b3"}}>Recentes</p>
+                          <p>Recentes</p>
                             <BackupTableOutlinedIcon style={{color: "#b3b3b3", width: "20px", height: "20px"}}/>
                           </div>
                         </div>
 
-                        <div className="artists-albums">
-
+                        <div className="artists-albums-area">
+                            <Library/>
                         </div>
                       </div>
                   </div>
