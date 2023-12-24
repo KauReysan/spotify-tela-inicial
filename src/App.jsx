@@ -7,6 +7,7 @@ import TurnedInNotOutlinedIcon from '@mui/icons-material/TurnedInNotOutlined';
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
 import ArrowForwardOutlinedIcon from '@mui/icons-material/ArrowForwardOutlined';
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
+import BackupTableOutlinedIcon from '@mui/icons-material/BackupTableOutlined';
 
 const App = () => {
   return(
@@ -45,15 +46,25 @@ const App = () => {
                             </div>
                           </div>
                         </div>
+
                       <div className="tags">
                         <p>something</p>
                         <p>something</p>
                         <p>something</p>
                       </div>
+
                       <div className="library-area">
                         <div className="search">
-
+                          <div className="input-area">
+                            <SearchOutlinedIcon style={{color: "#b3b3b3", width: "25px", height: "25px"}}/>
+                            <input type="text" />
+                          </div>
+                          <div className="recents-area">
+                          <p style={{color: "#b3b3b3"}}>Recentes</p>
+                            <BackupTableOutlinedIcon style={{color: "#b3b3b3", width: "20px", height: "20px"}}/>
+                          </div>
                         </div>
+
                         <div className="artists-albums">
 
                         </div>
