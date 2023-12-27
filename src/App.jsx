@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 
 import { Library } from "./Components/Library";
+import { FooterPLayer } from "./Components/FooterPLayer";
+import ArtistsLibrary from "./Components/ArtistsLibrary";
 
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
@@ -10,6 +12,7 @@ import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
 import ArrowForwardOutlinedIcon from '@mui/icons-material/ArrowForwardOutlined';
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 import BackupTableOutlinedIcon from '@mui/icons-material/BackupTableOutlined';
+
 
 const App = () => {
   return(
@@ -72,6 +75,7 @@ const App = () => {
 
                         <div className="artists-albums-area">
                             <Library/>
+                            <ArtistsLibrary/>
                         </div>
                       </div>
                   </div>
@@ -83,7 +87,7 @@ const App = () => {
 
       </div>
       <div className="container-footer-play">
-
+        <FooterPLayer/>
       </div>
 
     </div>
