@@ -42,11 +42,11 @@ export const FooterPLayer = () => {
             </div>
             <div className="middle">
                 <div className="middle-top-area">
-                <ShuffleIcon style={{width: "27px", height: "27px", margin: "0 5px"}}/>
-                <SkipPreviousIcon style={{width: "27px", height: "27px", margin: "0 5px"}}/>
+                <ShuffleIcon style={{width: "27px", height: "27px", margin: "0 5px", color: "#b3b3b3"}}/>
+                <SkipPreviousIcon style={{width: "27px", height: "27px", margin: "0 5px", color: "#b3b3b3"}}/>
                 <PauseCircleIcon style={{width: "40px", height: "40px", margin: "0 5px"}}/>
-                <SkipNextIcon style={{width: "27px", height: "27px", margin: "0 5px"}}/>
-                <LoopIcon style={{width: "27px", height: "27px", margin: "0 5px"}}/>
+                <SkipNextIcon style={{width: "27px", height: "27px", margin: "0 5px", color: "#b3b3b3"}}/>
+                <LoopIcon style={{width: "27px", height: "27px", margin: "0 5px", color: "#b3b3b3"}}/>
                 </div>
                 <div className="middle-input-area">
                     <p style={{color: "#b3b3b3"}}>00:00</p>
@@ -55,12 +55,12 @@ export const FooterPLayer = () => {
                 </div>
             </div>
             <div className="last-part">
-                <RadioIcon/>
-                <MicNoneIcon/>
-                <MicrowaveIcon/>
-                <DevicesIcon/>
-                <VolumeUpIcon/>
-                <OpenInFullIcon/>
+                <RadioIcon style={{width: "20px", height: "20px", margin: "0 5px", color: "#b3b3b3"}}/>
+                <MicNoneIcon style={{width: "20px", height: "20px", margin: "0 5px", color: "#b3b3b3"}}/>
+                <MicrowaveIcon style={{width: "20px", height: "20px", margin: "0 5px", color: "#b3b3b3"}}/>
+                <DevicesIcon style={{width: "20px", height: "20px", margin: "0 5px", color: "#b3b3b3"}}/>
+                <VolumeUpIcon style={{width: "20px", height: "20px", margin: "0 5px", color: "#b3b3b3"}}/>
+                <OpenInFullIcon style={{width: "20px", height: "20px", margin: "0 5px", color: "#b3b3b3"}}/>
             </div>
         </div>
     );

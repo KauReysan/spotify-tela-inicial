@@ -57,6 +57,9 @@
     display: flex;
     align-items: center;
 }
+.middle-top-area:hover{
+    cursor: pointer;
+}
 .middle input{
     width: 460px;
     height: 4px;
@@ -68,4 +71,11 @@
 }
 .middle-input-area p {
     font-size: 12px;
+}
+
+.last-part{
+    margin-right: 15px;
+}
+.last-part:hover{
+    cursor: pointer;
 }
