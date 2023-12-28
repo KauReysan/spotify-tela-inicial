@@ -1,7 +1,11 @@
 .container-player{
     margin-top: 10px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
 .song-area{
     display: flex;
     align-items: center;
@@ -41,4 +45,27 @@
 }
 .s-g-icon-area:hover{
     cursor: pointer;
+}
+
+.middle{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.middle-top-area{
+    display: flex;
+    align-items: center;
+}
+.middle input{
+    width: 460px;
+    height: 4px;
+}
+.middle-input-area{
+    display: flex;
+    align-items: center;
+    height: 15px;
+}
+.middle-input-area p {
+    font-size: 12px;
 }

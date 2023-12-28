@@ -41,11 +41,18 @@ export const FooterPLayer = () => {
                 </div>
             </div>
             <div className="middle">
-                <ShuffleIcon/>
-                <SkipPreviousIcon/>
-                <PauseCircleIcon/>
-                <SkipNextIcon/>
-                <LoopIcon/>
+                <div className="middle-top-area">
+                <ShuffleIcon style={{width: "27px", height: "27px", margin: "0 5px"}}/>
+                <SkipPreviousIcon style={{width: "27px", height: "27px", margin: "0 5px"}}/>
+                <PauseCircleIcon style={{width: "40px", height: "40px", margin: "0 5px"}}/>
+                <SkipNextIcon style={{width: "27px", height: "27px", margin: "0 5px"}}/>
+                <LoopIcon style={{width: "27px", height: "27px", margin: "0 5px"}}/>
+                </div>
+                <div className="middle-input-area">
+                    <p style={{color: "#b3b3b3"}}>00:00</p>
+                    <input type="range" />
+                    <p style={{color: "#b3b3b3"}}>00:00</p>
+                </div>
             </div>
             <div className="last-part">
                 <RadioIcon/>
