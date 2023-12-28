@@ -1,0 +1,44 @@
+.container-player{
+    margin-top: 10px;
+    display: flex;
+}
+.song-area{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.song-area img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.song-area img:hover{
+    cursor: pointer;
+}
+.s-g-text-area{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#musica-name{
+    font-size: 14px;
+}
+#musica-name:hover{
+    cursor: pointer;
+}
+#artist-name{
+    margin-top: -14px;
+    font-size: 11px;
+    color: #b3b3b3
+}
+#artist-name:hover{
+    cursor: pointer;
+    color: white;
+}
+.s-g-icon-area{
+    display: flex;
+    align-items: center;
+}
+.s-g-icon-area:hover{
+    cursor: pointer;
+}
