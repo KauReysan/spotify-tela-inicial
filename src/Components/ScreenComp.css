@@ -1,0 +1,33 @@
+.s-c-top{
+    display: flex;
+    justify-content: space-between;
+}
+.s-c-left-area{
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.s-c-top .arrow{
+    background-color: black;
+    opacity: 70%;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+.arrow:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+.s-c-right-area{
+    margin-top: 12px;
+    margin-right: 15px;
+}
+.s-c-top .right-icons{
+    background-color: black;
+    opacity: 70%;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 0 4px;
+}
+.right-icons:hover{
+    opacity: 100%;
+    cursor: pointer;
+}

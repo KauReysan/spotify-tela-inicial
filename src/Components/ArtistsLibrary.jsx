@@ -1,7 +1,7 @@
 import react, { useState } from "react";
 import "./ArtistsLibrary.css"
 
-const ArtistsLibrary = () => {
+export const ArtistsLibrary = () => {
 
     const [dataArtists, setDataArtists] = useState([
         {
@@ -38,5 +38,3 @@ const ArtistsLibrary = () => {
             </div>            
     );
 }
-
-export default ArtistsLibrary;

@@ -3,7 +3,8 @@ import "./App.css";
 
 import { Library } from "./Components/Library";
 import { FooterPLayer } from "./Components/FooterPLayer";
-import ArtistsLibrary from "./Components/ArtistsLibrary";
+import { ArtistsLibrary } from "./Components/ArtistsLibrary";
+import { ScreenComp } from "./Components/ScreenComp";
 
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
@@ -84,7 +85,7 @@ const App = () => {
       </div>
 
       <div className="container-screen">
-
+        <ScreenComp/>
       </div>
       <div className="container-footer-play">
         <FooterPLayer/>
