@@ -1,6 +1,4 @@
-.screen-comp-container{
 
-}
 .s-c-top{
     display: flex;
     justify-content: space-between;
@@ -71,4 +69,16 @@
     padding: 13px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+
+.s-c-category{
+    width: 96.3%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.s-c-podcasts-area{
+    display: flex;
+}
+.s-c-favartists-area{
+    display: flex;
 }

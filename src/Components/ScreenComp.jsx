@@ -1,6 +1,9 @@
 import React from "react";
 import "./ScreenComp.css";
 
+import { Podcasts } from "./Podcasts";
+import { FavArtists } from "./FavArtists";
+
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import Groups2OutlinedIcon from '@mui/icons-material/Groups2Outlined';
@@ -42,7 +45,22 @@ export const ScreenComp = () => {
             </div>
         </div>
         <div className="s-c-category">
-            
+            <h2>Spotify originais podcasts</h2>
+            <div className="s-c-podcasts-area">
+                <Podcasts/>
+                <Podcasts/>
+                <Podcasts/>
+                <Podcasts/>
+                <Podcasts/>
+            </div>
+            <h2>Seus artistas favoritos</h2>
+            <div className="s-c-favartists-area">
+                <FavArtists/>
+                <FavArtists/>
+                <FavArtists/>
+                <FavArtists/>
+                <FavArtists/>
+            </div>
         </div>
     </div>
     );

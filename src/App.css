@@ -155,12 +155,12 @@ body{
 }
 
 .container-screen{
-    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
     position: absolute;
     right: 8px;
     top: 8px;
     border-radius: 5px;
     width: 73.5%;
     height: 540px;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(19, 19, 19);
 }

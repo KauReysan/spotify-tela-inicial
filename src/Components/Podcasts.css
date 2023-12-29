@@ -1,0 +1,28 @@
+.podcast-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(37, 37, 37, 0.479);
+    width: 170px;
+    height: 230px;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+}
+.podcast-container:hover{
+    background-color: rgba(53, 53, 53, 0.479);
+    cursor: pointer;
+}
+.podcast-c-img{
+    width: 137px;
+    height: 137px;
+    margin-top: 14px;
+    background-color: rgb(114, 114, 114);
+    border-radius: 10px;
+}
+#p-c-title{
+    font-size: 17px;
+}
+#p-c-legend{
+    margin-top: -13px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
