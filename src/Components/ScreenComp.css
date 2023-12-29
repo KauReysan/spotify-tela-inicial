@@ -1,3 +1,6 @@
+.screen-comp-container{
+
+}
 .s-c-top{
     display: flex;
     justify-content: space-between;
@@ -30,4 +33,42 @@
 .right-icons:hover{
     opacity: 100%;
     cursor: pointer;
+}
+
+.s-c-middle{
+    font-family: 'Lato', sans-serif;
+    margin-left: 15px;
+}
+.s-c-middle p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.s-c-options{
+    display: flex;
+}
+.s-c-option{
+    margin: 0 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    width: 48.5%;
+    background-color: rgba(87, 87, 87, 0.836);
+    border-radius: 5px;
+}
+.s-c-option:hover{
+    background-color: rgba(100, 100, 100, 0.836);
+    cursor: pointer;
+}
+.s-c-option img{
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.op-icon{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }

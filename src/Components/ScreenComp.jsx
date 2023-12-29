@@ -12,7 +12,7 @@ export const ScreenComp = () => {
 
     const artist = {
         name: "Metalica",
-        img: "/public/metalica.jpeg"
+        img: "metalica.jpeg"
     }
 
     return(
@@ -30,15 +30,19 @@ export const ScreenComp = () => {
         </div>
         <div className="s-c-middle">
             <h1>Bom dia</h1>
-            <div className="s-c-liked-musics">
-                <FavoriteIcon/>
-            </div>
-            <div className="s-c-artist">
-
+            <div className="s-c-options">
+                <div className="s-c-option">
+                    <FavoriteIcon className="op-icon"/>
+                    <p>Músicas Curtidas</p>
+                </div>
+                <div className="s-c-option">
+                    <img src={artist.img} alt="" />
+                    <p>Metalica</p>
+                </div>
             </div>
         </div>
         <div className="s-c-category">
-
+            
         </div>
     </div>
     );

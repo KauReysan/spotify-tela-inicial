@@ -8,13 +8,13 @@ export const ArtistsLibrary = () => {
             id: 2,
             name: "AC/DC",
             type: "Artista",
-            img: "/public/acdc.jpeg"
+            img: "acdc.jpeg"
         },
         {
             id: 1,
             name: "Metalica",
             type: "Artista",
-            img: "/public/metalica.jpeg"
+            img: "metalica.jpeg"
         }
     ]);
 

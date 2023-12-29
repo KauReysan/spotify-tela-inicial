@@ -23,7 +23,7 @@ export const FooterPLayer = () => {
     const song = {
         name: "Walk",
         artist: "Foo Fighters",
-        img: "/public/wl.jpeg"
+        img: "wl.jpeg"
     }
 
     return(
